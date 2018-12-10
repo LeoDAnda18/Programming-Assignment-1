@@ -8,7 +8,7 @@ Engine Results Page (SERP) using Heap Sort for the following two major features:
 on the PageRank.
 2. You have a billion google searches a day, design a data structure which lets you pull out the
 top 10 unique ones at the end of the day.
-2
+
 Programming Requirements:
 1. The Google Search Engine Simulator MUST be written in Java and is required to use Max-Heap
 Priority Queue approach specified in lecture ppt slides and in textbook. (You MUST directly
@@ -16,7 +16,8 @@ use/revise the pseudo codes provided in textbook to write your Java codes. Any o
 copied from internet) will be treated as failing requirements
 You can either download a Web Crawler software tool from Internet (links provided) or develop
 your own simple Web Crawler in Java (Link Provided) to collect research results (See the
-references.)
+references.) The purpose of the webcrawler is to retrieve a list of random links. This is so that you 
+do not hardcode a set of links.
 3. Based on the PageRank calculation, the priority queue with an integer score implemented in a Max-
 Heap Tree will store a collection of at least 30 search results of PageRank for the priority queue.
 (You may use either ArrayList or Vector in Java)
