@@ -13,8 +13,8 @@ Programming Requirements:
 1. The Google Search Engine Simulator MUST be written in Java and is required to use Max-Heap
 Priority Queue approach specified in lecture ppt slides and in textbook. (You MUST directly
 use/revise the pseudo codes provided in textbook to write your Java codes. Any other codes (e.g.
-copied from internet) will be treated as failing requirements
-You can either download a Web Crawler software tool from Internet (links provided) or develop
+copied from internet) will be treated as failing requirements.
+2. You can either download a Web Crawler software tool from Internet (links provided) or develop
 your own simple Web Crawler in Java (Link Provided) to collect research results (See the
 references.) The purpose of the webcrawler is to retrieve a list of random links. This is so that you 
 do not hardcode a set of links.
@@ -29,13 +29,13 @@ specific priority order increased. In this case, you have to restructure the Max
 simulator must provide the user interface for changing the score for each PageRank factor.
 6. The Google Search Engine Simulator MUST contain the following functions:
 The following functions must be implemented.
-1) Max-Heapify()
-2) Build-Max-Heap()
-3) Heapsort()
-4) Max-Heap-Insert()
-5) Heap-Extract-Max
-6) Heap-Increase-Key
-7) Heap-Maximum
+a) Max-Heapify()
+b) Build-Max-Heap()
+c) Heapsort()
+d) Max-Heap-Insert()
+e) Heap-Extract-Max
+f) Heap-Increase-Key
+g) Heap-Maximum
 7. Each java file/class/subroutine/function call MUST contain a header comment at the beginning of it
 and each end of line in your codes. (Points will be taken off if your codes did not provide
 comments.)
